@@ -232,7 +232,6 @@ export default function SidebarLeft() {
                                     <line x1={21} y1={21} x2={15} y2={15} />
                                 </svg>
                             </div>
-                            <input className=" bg-gray-700 focus:outline-none rounded w-full text-sm text-gray-500 bg-gray-100 pl-10 py-2" type="text" placeholder="Search" />
                         </div>
                     </div>
                 </div>
