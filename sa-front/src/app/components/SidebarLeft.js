@@ -1,6 +1,7 @@
 import 'flowbite-react';
 import Turnos from '../pages/Turnos';
 import Presentation from '../pages/Presentation';
+import NotFoundPage from '../pages/NotFoundPage';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 export default function SidebarLeft() {
@@ -277,6 +278,7 @@ export default function SidebarLeft() {
                         <Routes>
                             <Route path='/' element={<Presentation />} exact></Route>
                             <Route path='/turnos' element={<Turnos />} exact></Route>
+                            <Route path='*' element={<NotFoundPage />} exact></Route>
                         </Routes>
                     </BrowserRouter>
                 </div>
