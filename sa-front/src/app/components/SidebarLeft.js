@@ -1,6 +1,6 @@
 import 'flowbite-react';
-import Turnos from './pages/Turnos';
-import Presentation from './pages/Presentation';
+import Turnos from '../pages/Turnos';
+import Presentation from '../pages/Presentation';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 export default function SidebarLeft() {
