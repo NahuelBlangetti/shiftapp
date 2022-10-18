@@ -1,11 +1,13 @@
 {
   "name": "shiftapp",
   "version": "1.0.0",
+  "type": "module",
   "description": "App que contiene multi funciones",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
